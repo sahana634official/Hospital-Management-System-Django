@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+  <div class="col-md-6">
+    <div class="card shadow p-4">
+      <h3 class="mb-3">🧑‍⚕️ Doctor Signup</h3>
+
+      <form method="POST">
+        {% csrf_token %}
+
+        <div class="mb-3">
+          <label class="form-label">Username</label>
+          <input class="form-control" type="text" name="username" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Email</label>
+          <input class="form-control" type="email" name="email" required>
+        </div>
+
+        <div class="mb-2">
+          <label class="form-label">Password</label>
+          <input class="form-control" id="docSignPass" type="password" name="password" required>
+        </div>
+
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" onclick="togglePassword('docSignPass')">
+          <label class="form-check-label">Show Password</label>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label">Specialization</label>
+          <input class="form-control" type="text" name="specialization">
+        </div>
+
+        <button class="btn btn-success w-100">Signup</button>
+      </form>
+
+      <hr>
+      <a href="/login/doctor/">Back to Doctor Login</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
