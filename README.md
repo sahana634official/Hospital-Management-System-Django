@@ -12,9 +12,9 @@ Includes Doctor/Patient login, slot booking, email confirmation, and Google Cale
 - ICS invite generation  
 
 ## 🛠 Tech Stack
-- Python, Django  
-- HTML, CSS, Bootstrap  
-- SQLite  
+- Backend: **Python, Django**
+- Frontend: **HTML, CSS, Bootstrap**
+- Database: **SQLite**  
 
 ## ▶️ How to Run
 1. Clone the repository
