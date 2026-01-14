@@ -3,8 +3,8 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-SMTP_EMAIL = "sahanakr634@gmail.com"
-SMTP_APP_PASSWORD = "mhugvnebnqliomri"
+SMTP_EMAIL = "YOUR_REAL_MAIL"
+SMTP_APP_PASSWORD = "YOUR_APP_PASSWORD"
 
 
 def build_ics_event(summary, description, start_dt, end_dt):
