@@ -25,3 +25,9 @@ Includes Doctor/Patient login, slot booking, email confirmation, and Google Cale
 
 ## 🔐 Notes
 Do not upload credentials.json or token.json to GitHub.
+
+
+---
+
+👩‍💻 Author
+sahana634official
